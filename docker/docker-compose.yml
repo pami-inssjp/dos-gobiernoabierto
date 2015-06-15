@@ -4,7 +4,8 @@ dos:
     - "8000:80"
   external_links:
     - debatics_mongo_1:mongo
-    - debatics_notifier_1:notifier
+  links:
+    - notifier
   environment:
     - NODE_PATH=.
     - PORT=80
@@ -18,7 +19,16 @@ dos:
     - ORGANIZATION_URL=http://www.gobiernoabierto.gob.ar
     - LOCALE=es
     - LOGO=/lib/boot/images/logo_ga.png
-    - NOTIFICATIONS_URL=http://notifier:9001/api/events
+    - NOTIFICATIONS_URL=http://notifier:9002/api/events
     - NOTIFICATIONS_TOKEN=%NOTIFICATIONS_TOKEN%
     - DEBUG=democracyos*
     - JWT_SECRET=%JWT_SECRET%
+
+notifier:
+  build: ./notifier
+  ports:
+    - "9002:9002"
+  external_links:
+    - debatics_mongo_1:mongo
+  volumes:
+    - ./notifier/app /app
