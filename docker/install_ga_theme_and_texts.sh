@@ -7,3 +7,4 @@ docker exec -t ga_dos_1 git config --system http.proxy $http_proxy
 docker exec -t ga_dos_1 git config --system https.proxy $http_proxy
 docker exec -t ga_dos_1 git clone https://github.com/pami-inssjp/dos-gobiernoabierto.git
 docker exec -t ga_dos_1 cp -frv dos-gobiernoabierto/gobiernoabierto-theme/app/public .
+docker exec -t ga_dos_1 cp -frv dos-gobiernoabierto/gobiernoabierto-texts/app/public .

@@ -1,0 +1,48 @@
+{
+  "name": "notifier",
+  "version": "0.2.1",
+  "description": "Service for sending notifications to users",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/run.js",
+    "test-func": "node test/run.js test/func/notifier.func.js",
+    "watch": "nodemon --watch source --watch config app.js",
+    "test-watch": "nodemon --watch source --watch config --watch test test/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DemocracyOS/notifier.git"
+  },
+  "author": "guido@democraciaenred.org",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemocracyOS/notifier/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0",
+    "chai": "~1.6.1",
+    "sinon-chai": "~2.4.0"
+  },
+  "homepage": "https://github.com/DemocracyOS/notifier",
+  "dependencies": {
+    "agenda": "~0.6.4",
+    "async": "~0.7.0",
+    "colors": "~0.6.2",
+    "express": "~3.5.1",
+    "moment": "~2.6.0",
+    "mongojs": "~0.11.0",
+    "node-logentries": "~0.1.4",
+    "node-mandrill": "^1.0.1",
+    "postal": "~0.9.0-rc1",
+    "request": "~2.55.0",
+    "respawn": "~0.3.1",
+    "underscore": "^1.7.0",
+    "debug": "~0.7.4",
+    "jade": "~0.35.0",
+    "merge-util": "0.1.0",
+    "t-component": "1.0.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}

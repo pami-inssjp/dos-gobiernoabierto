@@ -15,7 +15,7 @@ dos:
     - MONGO_URL=mongodb://mongo:27017/jefatura
     - HOST=gobiernoabierto.pami.org.ar
     - NODE_ENV=production
-    - ORGANIZATION_NAME=Plan de Acción de Gobierno Abierto 2015-2017
+    - ORGANIZATION_NAME=Coordinación de Gobierno Abierto
     - ORGANIZATION_URL=http://www.gobiernoabierto.gob.ar
     - LOCALE=es
     - LOGO=/lib/boot/images/logo_ga.png
@@ -23,6 +23,7 @@ dos:
     - NOTIFICATIONS_TOKEN=%NOTIFICATIONS_TOKEN%
     - DEBUG=democracyos*
     - JWT_SECRET=%JWT_SECRET%
+    - LEARN_MORE_URL=http://www.gobiernoabierto.gob.ar/novedades/participa-del-ii-plan-de-accion-2015-2017-de-la-republica-argentina_n249
 
 notifier:
   build: ./notifier
