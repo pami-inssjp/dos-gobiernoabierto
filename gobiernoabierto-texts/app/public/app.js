@@ -66241,7 +66241,7 @@ require.define("./lib/translations/lib/es.json", {
   "password.new": "Nueva contraseña",
   "password.repeat": "Repetir contraseña",
   "password.retype": "Reingresa la nueva contraseña",
-  "proposal-article.article.alert.learn-more": "Informate acá",
+  "proposal-article.article.alert.learn-more": "aquí",
   "proposal-article.article.alert.text": "Accedé a la primera parte del II Plan de Acción de Gobierno Abierto de Argentina",
   "proposal-article.participant.plural": "Participantes",
   "proposal-article.participant.singular": "Participante",
