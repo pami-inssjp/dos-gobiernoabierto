@@ -23,7 +23,7 @@ dos:
     - NOTIFICATIONS_TOKEN=%NOTIFICATIONS_TOKEN%
     - DEBUG=democracyos*
     - JWT_SECRET=%JWT_SECRET%
-    - LEARN_MORE_URL=http://www.gobiernoabierto.gob.ar/novedades/participa-del-ii-plan-de-accion-2015-2017-de-la-republica-argentina_n249
+    - LEARN_MORE_URL=http://www.gobiernoabierto.gob.ar/multimedia/files/2.II%20Plan%20de%20Acci%C3%B3n%20Nacional%20de%20Gobierno%20Abierto%202015-2017.pdf
 
 notifier:
   build: ./notifier

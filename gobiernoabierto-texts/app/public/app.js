@@ -66242,7 +66242,7 @@ require.define("./lib/translations/lib/es.json", {
   "password.repeat": "Repetir contraseña",
   "password.retype": "Reingresa la nueva contraseña",
   "proposal-article.article.alert.learn-more": "Informate acá",
-  "proposal-article.article.alert.text": "Como participar del Plan de Acción de Gobierno Abierto 2015-2017.",
+  "proposal-article.article.alert.text": "Accedé a la primera parte del II Plan de Acción de Gobierno Abierto de Argentina",
   "proposal-article.participant.plural": "Participantes",
   "proposal-article.participant.singular": "Participante",
   "proposal-article.unknown-closing-date": "Fecha de cierre Desconocido",
